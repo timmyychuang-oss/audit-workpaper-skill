@@ -102,6 +102,8 @@ S6: 输出完整Excel底稿（6个Sheet）
 
 读取 `references/blr_12col.md` 获取12列定义、写法约束和质量验证规则。首次生成时同时读取 `references/nfc_example.md` 参照写法。
 
+BLR草稿生成后，可读取 `references/interest_chain.md` 用利益链条视角审视每个BLR——追问"谁获利、谁受损、有没有反馈机制"，加深风险理解。
+
 ---
 
 ## S3: 设计测试方案（→ Sheet 3: 测试方案）
@@ -215,6 +217,7 @@ Sheet 6分两段：
 | `references/test_7col.md` | S3开始前，需要设计测试时 |
 | `references/quality_gates.md` | S6输出前，执行质量检查时 |
 | `references/nfc_example.md` | 需要参照实际写法范例时（尤其是首次生成BLR/测试时） |
+| `references/interest_chain.md` | S2生成BLR后，用利益链条视角审视风险深度（补充视角，非必须） |
 
 ---
 
